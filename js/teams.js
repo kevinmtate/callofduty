@@ -2,22 +2,21 @@ const container = document.querySelector('.container');
 
 document.addEventListener("DOMContentLoaded", function() {
     init();
-
-    const teamHeaders = document.querySelectorAll('h2');
-
-    document.addEventListener("click", function(event) {
-        if ([...teamHeaders].indexOf(event.target) >= 0) {
-            const roster = event.target.parentElement.querySelector('.roster');
-            if (window.getComputedStyle(roster).display === 'none') {
-                roster.style.display = 'block';
-            } else {
-                roster.style.display = 'none';
-            }
-        };
-    });
-
-    
+    document.addEventListener("click", callback);
+    document.addEventListener("touchstart", callback);
 });
+
+const callback = () => {
+    const teamHeaders = document.querySelectorAll('h2');
+    if ([...teamHeaders].indexOf(event.target) >= 0) {
+        const roster = event.target.parentElement.querySelector('.roster');
+        if (window.getComputedStyle(roster).display === 'none') {
+            roster.style.display = 'block';
+        } else {
+            roster.style.display = 'none';
+        }
+    };
+};
 
 const init = () => {
     console.log(Object.keys(teams).length, teams);
