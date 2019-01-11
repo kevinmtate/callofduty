@@ -3,10 +3,10 @@ const container = document.querySelector('.container');
 document.addEventListener("DOMContentLoaded", function() {
     init();
 
-    const teams = document.querySelectorAll('h2');
+    const teamHeaders = document.querySelectorAll('h2');
 
     document.addEventListener("click", function(event) {
-        if ([...teams].indexOf(event.target) >= 0) {
+        if ([...teamHeaders].indexOf(event.target) >= 0) {
             const roster = event.target.parentElement.querySelector('.roster');
             if (window.getComputedStyle(roster).display === 'none') {
                 roster.style.display = 'block';
@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function() {
 const init = () => {
     console.log(Object.keys(teams).length, teams);
     console.log(Object.keys(players).length, players);
+
+    document.getElementById('number-of-teams').innerHTML = "(" + Object.keys(teams).length + ")";
 
     for (var key in teams) {
         const newTeam = document.createElement('div');

@@ -44,6 +44,9 @@ const players = {
     "believe": {
         "team": "excelerate",
     },
+    "bigtymer": {
+        "team": "hof",
+    },
     "blaztful": {
         "team": "g2-esports",
     },
@@ -53,8 +56,20 @@ const players = {
     "braain": {
         "team": "sween",
     },
+    "breszy": {
+        "team": "overtime",
+    },
+    "buzzo": {
+        "team": "hof",
+    },
+    "cammy": {
+        "team": "fact-revolution",
+    },
     "cellium": {
         "team": "faze",
+    },
+    "chain": {
+        "team": "fact-revolution",
     },
     "chino": {
         "team": "g2-esports",
@@ -83,8 +98,14 @@ const players = {
     "deleo": {
         "team": "nialls",
     },
+    "defrag": {
+        "team": "fact-revolution",
+    },
     "denz": {
         "team": "reciprocity",
+    },
+    "denza": {
+        "team": "imperial",
     },
     "destiny": {
         "team": "mazer",
@@ -113,7 +134,7 @@ const players = {
     "faccento": {
         "team": "evil-geniuses",
     },
-    "fa5tball": {
+    "fa5tballa": {
         "team": "excelerate",
     },
     "felony": {
@@ -147,7 +168,10 @@ const players = {
         "team": "luminosity",
     },
     "havok": {
-        "team": "str8-rippin",
+        "team": "spacelys",
+    },
+    "hawqeh": {
+        "team": "imperial",
     },
     "huke": {
         "team": "envyus",
@@ -185,6 +209,9 @@ const players = {
     "karma": {
         "team": "optic",
     },
+    "katru": {
+        "team": "movistar",
+    },
     "kenny": {
         "team": "hundred-thieves",
     },
@@ -213,13 +240,19 @@ const players = {
         "team": "lightning-pandas",
     },
     "majormaniak": {
-        "team": "str8-rippin",
+        "team": "spacelys",
+    },
+    "maple": {
+        "team": "fact-revolution",
     },
     "maux": {
-        "team": "str8-rippin",
+        "team": "spacelys",
     },
     "mayhem": {
         "team": "uyu",
+    },
+    "merk": {
+        "team": "",
     },
     "methodz": {
         "team": "g2-esports",
@@ -230,6 +263,12 @@ const players = {
     "mettalzz": {
         "team": "heretics",
     },
+    "mizuno": {
+        "team": "nop",
+    },
+    "moose": {
+        "team": "imperial",
+    },
     "mosh": {
         "team": "faze-black",
     },
@@ -237,7 +276,13 @@ const players = {
         "team": "excelerate",
     },
     "nagafen": {
-        "team": "str8-rippin",
+        "team": "spacelys",
+    },
+    "nameless": {
+        "team": "",
+    },
+    "natashay": {
+        "team": "overtime",
     },
     "nevo": {
         "team": "",
@@ -256,6 +301,9 @@ const players = {
     },
     "octane": {
         "team": "hundred-thieves",
+    },
+    "oney": {
+        "team": "movistar",
     },
     "onyx": {
         "team": "szn",
@@ -278,6 +326,10 @@ const players = {
     "phantomz": {
         "team": "faze-black",
     },
+    "phizzurp": {
+        "notes": "RIP SND GOAT <3",
+        "team": "hof",
+    },
     "prestinni": {
         "team": "eunited",
     },
@@ -290,11 +342,17 @@ const players = {
     "proto": {
         "team": "uyu",
     },
+    "puni": {
+        "team": "movistar",
+    },
     "pxndur": {
         "team": "pittsburgh",
     },
     "qwiker": {
         "team": "sween",
+    },
+    "rambo": {
+        "team": "hof",
     },
     "ramby": {
         "team": "teddys",
@@ -302,17 +360,32 @@ const players = {
     "rated": {
         "team": "red-reserve",
     },
+    "reedy": {
+        "team": "imperial",
+    },
+    "reign6": {
+        "team": "nop",
+    },
     "replays": {
         "team": "faze",
     },
     "ricky": {
         "team": "pittsburgh",
     },
+    "rizk": {
+        "team": "overtime",
+    },
+    "robbieb3319": {
+        "team": "nop",
+    },
     "royalty": {
         "team": "evil-geniuses",
     },
     "saints": {
         "team": "pittsburgh",
+    },
+    "sammy": {
+        "team": "movistar",
     },
     "scump": {
         "team": "optic",
@@ -328,6 +401,9 @@ const players = {
     },
     "shotzy": {
         "team": "szn",
+    },
+    "sidroc": {
+        "team": "hof",
     },
     "silly": {
         "team": "envyus",
@@ -347,17 +423,29 @@ const players = {
     "slasher": {
         "team": "hundred-thieves",
     },
+    "slater": {
+        "team": "nop",
+    },
     "spacely": {
-        "team": "str8-rippin",
+        "team": "spacelys",
     },
     "spoof": {
         "team": "uyu",
     },
+    "studyy": {
+        "team": "",
+    },
     "sukry": {
         "team": "heretics",
     },
+    "sunnyb": {
+        "team": "fact-revolution",
+    },
     "super": {
         "team": "teddys",
+    },
+    "supraaz": {
+        "team": "movistar",
     },
     "supremeagility": {
         "team": "mazer",
@@ -370,6 +458,9 @@ const players = {
     },
     "teddrecks": {
         "team": "teddys",
+    },
+    "teepee": {
+        "team": "",
     },
     "temp": {
         "team": "splyce",
@@ -392,11 +483,17 @@ const players = {
     "vicious": {
         "team": "mazer",
     },
+    "wailers": { 
+        "team": "overtime",
+    },
     "weeman": {
         "team": "sween",
     },
     "wrecks": {
         "team": "mazer",
+    },
+    "vortex": {
+        "team": "imperial",
     },
     "wuskin": {
         "team": "reciprocity",
@@ -413,8 +510,17 @@ const players = {
     "zed": {
         "team": "reciprocity",
     },
+    "zeek": {
+        "team": "overtime",
+    },
+    "zepa": {
+        "team": "tainted-minds",
+    },
     "zer0": {
         "team": "red-reserve",
+    },
+    "zinx": {
+        "team": "nop",
     },
     "zoomaa": {
         "team": "faze",
