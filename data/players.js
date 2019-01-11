@@ -15,7 +15,7 @@ const players = {
         "team": "envyus",
     },
     "apox": {
-        "team": "mazer",
+        "team": "teddys",
     },
     "aqua": {
         "team": "splyce",
@@ -50,6 +50,9 @@ const players = {
     "brack": {
         "team": "midnight",
     },
+    "braain": {
+        "team": "sween",
+    },
     "cellium": {
         "team": "faze",
     },
@@ -62,8 +65,14 @@ const players = {
     "clayster": {
         "team": "eunited",
     },
+    "creza": {
+        "team": "nialls",
+    },
     "crimsix": {
         "team": "optic",
+    },
+    "damage": {
+        "team": "tainted-minds",
     },
     "dashy": {
         "team": "optic",
@@ -71,8 +80,14 @@ const players = {
     "decemate": {
         "team": "g2-esports",
     },
+    "deleo": {
+        "team": "nialls",
+    },
     "denz": {
         "team": "reciprocity",
+    },
+    "destiny": {
+        "team": "mazer",
     },
     "diabolic": {
         "team": "enigma6",
@@ -86,6 +101,9 @@ const players = {
     "enable": {
         "team": "hundred-thieves",
     },
+    "enduraaa": {
+        "team": "nialls",
+    },
     "envdian": {
         "team": "giants",
     },
@@ -93,6 +111,12 @@ const players = {
         "team": "midnight",
     },
     "faccento": {
+        "team": "evil-geniuses",
+    },
+    "fa5tball": {
+        "team": "excelerate",
+    },
+    "felony": {
         "team": "evil-geniuses",
     },
     "ferocitys": {
@@ -164,6 +188,9 @@ const players = {
     "kenny": {
         "team": "hundred-thieves",
     },
+    "keza": {
+        "team": "nialls",
+    },
     "kismet": {
         "team": "enigma6",
     },
@@ -213,7 +240,16 @@ const players = {
         "team": "str8-rippin",
     },
     "nevo": {
-        "team": "sween",
+        "team": "",
+    },
+    "newbz": {
+        "team": "mazer",
+    },
+    "niall": {
+        "team": "nialls",
+    },
+    "nimble": {
+        "team": "tainted-minds",
     },
     "nolson": {
         "team": "sween",
@@ -261,7 +297,7 @@ const players = {
         "team": "sween",
     },
     "ramby": {
-        "team": "mazer",
+        "team": "teddys",
     },
     "rated": {
         "team": "red-reserve",
@@ -283,6 +319,9 @@ const players = {
     },
     "seany": {
         "team": "reciprocity",
+    },
+    "setzyy": {
+        "team": "tainted-minds",
     },
     "shockz": {
         "team": "mindfreak",
@@ -318,13 +357,19 @@ const players = {
         "team": "heretics",
     },
     "super": {
+        "team": "teddys",
+    },
+    "supremeagility": {
         "team": "mazer",
+    },
+    "swiftazor": {
+        "team": "tainted-minds",
     },
     "swifty": {
         "team": "mindfreak",
     },
     "teddrecks": {
-        "team": "mazer",
+        "team": "teddys",
     },
     "temp": {
         "team": "splyce",
@@ -344,8 +389,14 @@ const players = {
     "tommey": {
         "team": "reciprocity",
     },
+    "vicious": {
+        "team": "mazer",
+    },
     "weeman": {
         "team": "sween",
+    },
+    "wrecks": {
+        "team": "mazer",
     },
     "wuskin": {
         "team": "reciprocity",
@@ -357,7 +408,7 @@ const players = {
         "team": "giants",
     },
     "zaptius": {
-        "team": "mazer"
+        "team": "teddys",
     },
     "zed": {
         "team": "reciprocity",

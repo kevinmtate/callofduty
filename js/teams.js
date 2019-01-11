@@ -1,21 +1,49 @@
-const tableData = document.querySelector('tbody');
+const container = document.querySelector('.container');
 
-for (var key in teams) {
-    let newTeam = document.createElement('tr');
-    newTeam.setAttribute('id', key);
-    let teamName = document.createElement('td');
-    teamName.innerHTML = teams[key];
-    let teamRoster = document.createElement('td');
-    teamRoster.setAttribute('class', 'roster');
-    newTeam.append(teamName, teamRoster);
-    tableData.append(newTeam);
-};
+document.addEventListener("DOMContentLoaded", function() {
+    init();
 
-for (var key in players) {
-    let player = players[key];
-    if (teams[player.team]) {
-        let newPlayer = document.createElement('p');
-        newPlayer.innerHTML = key;
-        document.getElementById(player.team).querySelector('.roster').append(newPlayer);
-    }
+    const teams = document.querySelectorAll('h2');
+
+    document.addEventListener("click", function(event) {
+        if ([...teams].indexOf(event.target) >= 0) {
+            const roster = event.target.parentElement.querySelector('.roster');
+            if (window.getComputedStyle(roster).display === 'none') {
+                roster.style.display = 'block';
+            } else {
+                roster.style.display = 'none';
+            }
+        };
+    });
+
+    
+});
+
+const init = () => {
+    console.log(Object.keys(teams).length, teams);
+    console.log(Object.keys(players).length, players);
+
+    for (var key in teams) {
+        const newTeam = document.createElement('div');
+        newTeam.setAttribute('id', key);
+        newTeam.setAttribute('class', 'team');
+    
+        const teamName = document.createElement('h2');
+        teamName.innerHTML = teams[key];
+    
+        const teamRoster = document.createElement('div');
+        teamRoster.setAttribute('class', 'roster');
+    
+        newTeam.append(teamName, teamRoster);
+        container.append(newTeam);
+    };
+    
+    for (var key in players) {
+        const player = players[key];
+        if (teams[player.team]) {
+            const newPlayer = document.createElement('p');
+            newPlayer.innerHTML = key;
+            document.getElementById(player.team).querySelector('.roster').append(newPlayer);
+        }
+    };
 };
