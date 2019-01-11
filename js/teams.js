@@ -1,19 +1,21 @@
-const tableData = document.querySelector('.table-data');
+const tableData = document.querySelector('tbody');
 
 for (var key in teams) {
-    var htmlString = 
-        "<div id="+key+" class='team'> \
-            <span>"+teams[key]+"</span> \
-            <div class='roster'></div> \
-        </div>"
-    tableData.innerHTML += htmlString;
+    let newTeam = document.createElement('tr');
+    newTeam.setAttribute('id', key);
+    let teamName = document.createElement('td');
+    teamName.innerHTML = teams[key];
+    let teamRoster = document.createElement('td');
+    teamRoster.setAttribute('class', 'roster');
+    newTeam.append(teamName, teamRoster);
+    tableData.append(newTeam);
 };
 
 for (var key in players) {
     let player = players[key];
     if (teams[player.team]) {
-        var htmlString = 
-            "<span>"+key+"</span>";
-        document.getElementById(player.team).querySelector('.roster').innerHTML += htmlString;
+        let newPlayer = document.createElement('p');
+        newPlayer.innerHTML = key;
+        document.getElementById(player.team).querySelector('.roster').append(newPlayer);
     }
-}
+};

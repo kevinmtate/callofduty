@@ -23,6 +23,9 @@ const players = {
     "arcitys": {
         "team": "eunited",
     },
+    "asim": {
+        "team": "faze-black",
+    },
     "assault": {
         "team": "envyus",
     },
@@ -43,6 +46,9 @@ const players = {
     },
     "blaztful": {
         "team": "g2-esports",
+    },
+    "brack": {
+        "team": "midnight",
     },
     "cellium": {
         "team": "faze",
@@ -79,6 +85,12 @@ const players = {
     },
     "enable": {
         "team": "hundred-thieves",
+    },
+    "envdian": {
+        "team": "giants",
+    },
+    "envoy": {
+        "team": "midnight",
     },
     "faccento": {
         "team": "evil-geniuses",
@@ -119,6 +131,12 @@ const players = {
     "illey": {
         "team": "szn",
     },
+    "inven": {
+        "team": "giants",
+    },
+    "jetli": {
+        "team": "midnight",
+    },
     "jkap": {
         "team": "eunited",
     },
@@ -152,6 +170,9 @@ const players = {
     "lacefield": {
         "team": "g2-esports",
     },
+    "llamagod": {
+        "team": "midnight",
+    },
     "loony": {
         "team": "splyce",
     },
@@ -182,6 +203,9 @@ const players = {
     "mettalzz": {
         "team": "heretics",
     },
+    "mosh": {
+        "team": "faze-black",
+    },
     "mruiz": {
         "team": "excelerate",
     },
@@ -203,11 +227,20 @@ const players = {
     "parasite": {
         "team": "pittsburgh",
     },
+    "parzelion": {
+        "team": "midnight",
+    },
     "paulehx": {
         "team": "szn",
     },
     "peatie": {
         "team": "lightning-pandas",
+    },
+    "pepo": {
+        "team": "giants",
+    },
+    "phantomz": {
+        "team": "faze-black",
     },
     "prestinni": {
         "team": "eunited",
@@ -296,8 +329,17 @@ const players = {
     "temp": {
         "team": "splyce",
     },
+    "tisch": {
+        "team": "faze-black",
+    },
     "tjhaly": {
         "team": "optic",
+    },
+    "tojor": {
+        "team": "giants",
+    },
+    "tomgrvty": {
+        "team": "faze-black",
     },
     "tommey": {
         "team": "reciprocity",
@@ -310,6 +352,9 @@ const players = {
     },
     "xotic": {
         "team": "evil-geniuses",
+    },
+    "yako": {
+        "team": "giants",
     },
     "zaptius": {
         "team": "mazer"
