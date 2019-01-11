@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.addEventListener("touchstart", callback);
 });
 
-const callback = () => {
+const callback = (event) => {
     const teamHeaders = document.querySelectorAll('h2');
     if ([...teamHeaders].indexOf(event.target) >= 0) {
         const roster = event.target.parentElement.querySelector('.roster');
