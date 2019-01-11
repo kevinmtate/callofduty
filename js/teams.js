@@ -3,7 +3,7 @@ const container = document.querySelector('.container');
 document.addEventListener("DOMContentLoaded", function() {
     init();
     document.addEventListener("click", callback);
-    document.addEventListener("touchstart", callback);
+    document.addEventListener("ontouchstart", callback);
 });
 
 const callback = (event) => {
