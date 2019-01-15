@@ -3,7 +3,7 @@ const container = document.querySelector('.container');
 document.addEventListener("DOMContentLoaded", function() {
     init();
     document.addEventListener("click", callback);
-    document.addEventListener("ontouchstart", callback);
+    document.addEventListener("touchstart", callback);
 });
 
 const callback = (event) => {
@@ -15,7 +15,7 @@ const callback = (event) => {
         } else {
             roster.style.display = 'none';
         }
-    };
+    }
 };
 
 const init = () => {
@@ -43,7 +43,11 @@ const init = () => {
         const player = players[key];
         if (teams[player.team]) {
             const newPlayer = document.createElement('p');
-            newPlayer.innerHTML = key;
+            if (player.tag) {
+                newPlayer.innerHTML = player.tag;
+            } else {
+                newPlayer.innerHTML = key;
+            }
             document.getElementById(player.team).querySelector('.roster').append(newPlayer);
         }
     };

@@ -1,0 +1,14 @@
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#number-of-players { 
+    font-size: .5em;
+    vertical-align: middle;
+}
+
+.player {
+    font-size: 1.25em;
+}
+.player:hover { cursor: pointer; }
